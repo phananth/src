@@ -6,7 +6,7 @@
     <script src="{% static "posts/detail.js" %}" defer></script>
 {% endblock scripts %}
 
-{% block title %}{{obj.title}} detail{% endblock title %}
+{% block title %}{{objl.tite}} detail{% endblock title %}
 
 {% block content %}
     <!-- Update Modal -->
@@ -87,5 +87,18 @@
     </div>
 
     <div class ="mt-1" id="post-box"></div>
+
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+            </div>
+          </div>
+        </div>
+      </div>
 
 {% endblock content %}

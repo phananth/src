@@ -100,7 +100,7 @@ def update_post(request, pk):
         new_title = request.POST.get('title')
         new_body = request.POST.get('body')
         obj.title = new_title
-        obj.title = new_body
+        obj.body = new_body
         obj.save()
     return JsonResponse({
         'title': new_title,

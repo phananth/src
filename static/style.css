@@ -1,3 +1,13 @@
 .not-visible {
     display: none;
 }
+
+.dz {
+    border: dashed !important;
+    border-color: #e1e1e1;
+    border-radius: 8px !important;
+}
+
+.dz:hover {
+    background-color: aliceblue !important;
+}
